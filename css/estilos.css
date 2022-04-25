@@ -1,0 +1,2117 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: 'Heebo', sans-serif;
+    background-color: rgb(2,0,65);
+}
+ nav {
+     width: 100%;
+     height: 80px;
+     display: flex;
+     justify-content: space-between;
+     background-color: rgb(2, 1, 46);
+     box-shadow: 0 0 5px;
+   
+
+}
+nav .imagenprincipal {
+ 
+    object-fit: contain;
+    position: relative;
+    left: 30px;
+    top: 9px;
+
+    
+   }
+
+nav ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    gap: 40px;
+    color: white;
+    list-style: none ;
+}
+nav ul li a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+.seccion1 {
+    width: 100%;
+    height: 100vh;
+    box-shadow: 5px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+}
+.imagenbitcoin{
+    grid-area: 1fr / 1fr / 2fr / 2fr;
+    width: 500px;
+    height: 600px;
+    display: flex;
+}
+
+.contenido1{
+    grid-area: 1fr / 2fr / 2fr / 3fr;
+    color:white;
+    width: 700px;
+    height: 150px;
+    font-size: 28px;
+    position: relative;
+    top: 190px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+ .bitcoin1 {
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+
+
+
+    
+.contenido1 p {
+position: relative;
+}
+.contenido1 a button {
+    position: relative;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Heebo', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 18px;
+}
+
+ .segundaseccion {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+     height: 700px;
+     width: 100%;
+     background-image: url(../img/eth.png);
+     background-size: 620px;
+     background-repeat: no-repeat;
+     
+    
+ }
+   
+.moneda{
+    display: flex;
+    justify-content: flex-end;
+   width: 100%;
+    height: 100px;
+
+}
+.imgmoneda{
+    width: 100px;
+    height: 100px;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+    
+.contenedordivseg{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 150px;
+    margin-top: 170px;
+}
+ 
+.divsegundo{
+    font-family: 'Heebo', sans-serif;
+    font-size: 23px;
+    color:  rgb(2, 1, 46);
+    text-align: center;
+    height: 150px;
+    width: 700px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   
+} 
+   
+
+.botonsegunda{
+    color: white;
+    position: relative;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    justify-content: center;
+    background-color: rgb(2, 1, 46);
+    font-family: 'Heebo', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.terceraseccion{
+    display: flex;
+    flex-wrap: wrap ;
+    flex-direction: row;
+    color: white;
+    gap: 80px;
+    padding-top: 150px;
+    width: 100%;
+    height: 800px;
+    }
+.bitcoin{
+
+width: 1000px;
+height: 150px;
+flex-direction: row;
+padding: 20px;
+}
+.terceraseccionparraf{ 
+    padding-left: 130px;
+}
+.btcimg{
+    float: left;
+
+}
+.terceraseccion h2 {
+    padding-left: 130px;
+}
+
+.terceraseccioneth{
+    width: 1000px;
+    height: 150px;
+    
+    padding: 20px;
+}
+.terceraseccioneth img{
+    float: left;
+    
+}
+.terceraseccionusdt{
+    width: 1000px;
+    height: 150px;
+    padding: 20px;
+    
+}
+.terceraseccionusdt img{
+    float: left;
+
+}
+
+.masinfo{
+    color: rgb(235, 182, 8);
+    
+}
+.imagentercera{
+    display: flex;
+    position: relative;
+    width: 269px;
+    height: 550;
+}
+.divtercera{
+    position: relative;
+    bottom: 450px;
+    right: 50px;
+
+}
+
+.footer{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 0px 2px rgb(255, 255, 255);
+    
+}
+
+
+.footerderechos{
+    display: flex;
+    font-size: 18px;
+    width: 290px; 
+    margin-top: 30px;
+    position: absolute;
+    
+}
+.footerfoto{
+    display: flex;
+    width: 250px;
+    height: 56px;
+}
+.fotofooter{
+    display: flex;
+    justify-content: end;
+    padding-top: 19px;
+}
+
+.coomingsoon{
+display: flex;
+justify-content: center;
+background-color: rgb(0, 0, 0);
+position: relative;
+bottom: 2px;
+width: 100%;
+
+}
+.imgcooming{
+    width: 100%
+}
+
+.seccioncyv{
+    color: white;
+    background-color: black;
+    padding: 30px;
+    padding-top: 80px;
+   
+    }
+.titulocomprar{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+} 
+.parrafocomprar{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.botones{
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    
+}
+.botonuno{
+    position: relative;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Heebo', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+   
+}
+.botondos{
+    position: relative;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-family: 'Heebo', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    
+}
+.button1{
+    padding-right: 30px;
+}
+
+.maincomprar{
+background-color: rgb(255, 255, 255);
+display: flex; 
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 600px;
+}
+
+.divcomprar{
+color: white;
+width: 800px;
+height: 350px;
+
+}
+
+
+.titulocompraruno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(7, 7, 7);
+    padding-bottom: 50px;
+}
+.botonpago{
+    position: relative;
+    width: 330px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(2, 1, 46);
+    font-family: 'Heebo', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    
+}
+.botonpagodos{
+    position: relative;
+    width: 330px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(2, 1, 46);
+    font-family: 'Heebo', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+}
+.botonpagotres{
+    position: relative;
+    width: 330px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(2, 1, 46);
+    font-family: 'Heebo', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    
+}
+.pagouno{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+    
+}
+.pagodos{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    
+}
+.pagotres{
+    padding: 10px;
+    height: 80px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.imgtrans{
+   width: 70px; 
+  height: 70px;
+  display: flex;
+  
+
+}
+.imgtransferencia{
+height: 70px;
+width: 70px;
+
+}
+.mercado{
+    width: 60px;
+    height: 60px;
+    
+    
+}
+.divmercado{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    
+}
+.pagotrans{
+    width: 80px;
+    height: 65px;
+    display: flex;
+    
+}
+.rapipago{
+    width: 80px;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+}  
+.segundomaininfo{
+    color: white;
+    height: 600px;
+}
+.segundomaininfo h2{
+    font-size: 30px;
+    display: flex;
+   
+}
+.segundodivmain p{
+   display: flex;
+   align-items: center;
+   color: white;
+   background-color:  rgb(235, 182, 8, );
+   border-radius: 5px;
+}
+.segundodivmain{
+    width: 800px;
+    height: 150px;
+    padding-top: 100px;
+    padding-left: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+
+}
+.cajaseguridad{
+    background-color: rgb(255, 255, 255);
+    color:  rgb(235, 182, 8);
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 40px;
+    box-shadow: 7px 13px 37px #000;
+}
+.cajaseguridad p{
+    color: black;
+}
+
+.cajainnovacion{
+    background-color: rgb(255, 255, 255);
+    color:  rgb(235, 182, 8);
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 40px;
+    padding: 30px;
+    box-shadow: 7px 13px 37px #000;
+}
+.cajainnovacion p{
+    color: black;
+}
+
+.cajaconfianza{
+    background-color: rgb(255, 253, 253);
+    color:  rgb(235, 182, 8);
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: 7px 13px 37px #000;
+}
+.cajaconfianza p{
+    color: black;
+}
+
+.cajas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 110px;
+}
+.cajas h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgseguridad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imginn{
+    display: flex;
+    justify-content: center;
+}
+.imgconf{
+    display: flex;
+    justify-content: center;
+}
+.parrafocajas{
+display: flex;
+padding: 10px;
+}
+
+.mainregistrate{
+    color: black;
+    width: 500px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    box-shadow: 7px 13px 37px #000;
+    
+    
+}
+.mainregistrate h1{
+ font-size: 35px ;   
+ margin-bottom: 0px;
+padding: 5px;
+}
+.mainregistrate p{
+    font-size: 15px;
+}
+
+
+.controles{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(218, 228, 228);  
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(231, 221, 214);
+    font-size: 15px;
+    display: flex;
+}
+
+.terminos{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+.botoningresar{
+    width: 100%;
+    border: none;
+    padding: 12px;
+    background-color: rgb(5, 5, 5);
+   font-size: 18px;
+   color: white;
+
+}
+.divmail{
+    padding-top: 20px;
+}
+.divauto{
+    padding-top: 18px;
+    font-size: 15px;
+
+}
+.divingresar{
+    padding-top: 20px;
+}
+.fondoregis{
+   display: flex;
+    width: 100%;
+    height: 700px;
+    background-image: url(https://i.pinimg.com/564x/35/eb/7d/35eb7d5bce221d9392feb1e426ba48af.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seccioncotizacion{
+color: rgb(0, 0, 0);    
+margin-top: 100px;
+height: 800px;
+}
+
+.divprincipal{
+    margin-bottom: 150px;
+}
+.divprincipal h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.divprincipal p{
+display: flex;
+justify-content: center;
+font-size: 22px;
+margin-top: 25px;
+color: white;
+}
+.columna{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height:  30px;
+}
+.divcripto{
+display: flex;
+width: 320px;
+height: 17px;
+margin-left: 20px;
+}
+.divprecio{
+    display: flex;
+    width: 140px;
+    height: 17px;
+}
+.divventa{
+    display: flex;
+    width: 140px;
+    height: 17px;
+}
+.divvariaciontit{
+    display: flex;
+    width: 140px;
+    height: 17px;
+}
+.divvariacion{
+    display: flex;
+    width: 140px;
+    height: 17px;
+    color: rgb(3, 199, 3);
+}
+.divvariacionn{
+    display: flex;
+    width: 140px;
+    height: 17px;
+    color: red;
+}
+.filabtc{
+    display: flex;
+    width: 940px;
+    height: 78px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+.filas{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.todo{
+display: flex;
+justify-content: center;
+width: 100%;
+
+}
+.comprar{
+    text-decoration: none;
+    color: blue;
+}
+.guiabtc{
+    color: white;
+    
+    
+
+}
+.guiabtc h1{
+    display: flex;
+    font-size: 38px;
+    width: 230px;
+    background-color: blue;
+    border-radius: 5px;
+
+}
+.guiah2{
+    font-size: 19px;
+    
+}
+.guiap{
+    display: flex;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    margin-left: 50px;
+    line-height: 20px;
+}
+.contenedor{
+    width: 1000px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.guiabtch2{
+    display: flex;
+    font-size: 25px;
+    width: 330px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
+.divcomo{
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.divcomo h2{
+    background-color: blue;
+    width: 450px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.maineth{
+    color: white;
+}
+.guiape{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+    
+
+
+.seccionreplica{
+    width: 1200px;
+    height: 1000px;
+    display: flex;
+}
+
+
+.parent {
+    width: 1200px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    margin-top: 100px;
+    }
+    
+    .div1 { 
+        grid-area: 1 / 1 / 2 / 2; 
+        color: white;
+        width: 890px;
+        height: 150px;
+        display: flex;
+        margin-left: 15px;
+        margin-top: 100px;
+        
+    
+    }
+
+    .replica1{
+    display: flex;
+    
+    }
+
+    .imagenreplica{
+        display: flex;
+    }
+
+    .div1 h2{ 
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: 40px;
+        margin-left: 15px;
+    }
+    .div1 p{
+        width: 785px;
+        
+        margin-left: 20px;
+        height: 45px;
+    }
+
+   
+   
+
+    .div2 { 
+        grid-area: 2 / 1 / 3 / 2; 
+        color: white;
+        width: 900px;
+        height: 150px;
+        display: flex;
+        margin-left: 15px;
+        margin-top: 50px;
+        
+    }
+
+    .replica2{
+        display: flex;
+    }
+
+    .imagenreplica2{
+        display: flex;
+    }
+    .div2 h2{ 
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 40px;
+        margin-left: 15px;
+    }
+
+    .div2 p{
+        width: 785px;
+        margin-left: 20px;
+        height: 45px;
+    }
+
+    .div3 {
+        grid-area: 3 / 1 / 4 / 2; 
+        color: white;
+        width: 800px;
+        height: 100px;
+        display: flex;  
+        margin-left: 15px;
+        
+    }
+    .replica3{
+        display: flex;
+    }
+    .imagenreplica3{
+        display: flex;
+    }
+
+    .div3 h2{ 
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 40px;
+        margin-left: 15px;
+    }
+
+    .div3 p{
+        width: 890px;
+        margin-left: 20px;
+        height: 45px;
+    }
+
+    .div4 {
+        grid-area: 1 / 2 / 4 / 3; 
+        position: relative;
+        bottom: 500px;
+    }
+
+    .fas{
+        display: none;
+    }
+
+
+   
+
+        
+@media screen and (max-width: 1115px) {
+       
+            .imagenprincipal{
+                width: 190px;
+                height: 65px;
+                
+            }
+            .menu{
+                width: 100%;
+                justify-content: center;
+            }
+            .header{
+                display: flex;
+                width: 100%;
+            
+                
+            }
+            .fas{
+                display: none;
+                padding: 20px;
+            }
+
+            .seccion1{
+                
+                flex-direction: row;
+                width: 100%;
+                
+                
+            }
+            .contenido1{
+                width: 100%;
+                display: flex;
+                font-size: 20px;
+                align-items: center;
+                justify-content: center;
+                
+            }
+            .bitcoin1{
+                width: 410px;
+                height: 500px;
+                position: relative;
+               
+               
+               align-items: center;
+               justify-content: center;
+               display: flex;
+            }
+            
+    
+           
+            
+            .segundaseccion{
+                width: 100%;
+                background-size: 500px;
+                display: flex;
+                flex-direction: row;
+                height: 650px;
+            
+            }
+            .seccion2__titulo{
+                font-size: 25px;
+              
+            }
+            .seccion2__parrafo{
+                font-size: 20px;
+                
+            }
+
+            .divsegundo{
+                
+                width: 100%;
+            }
+            
+            
+            
+            .terceraseccion{
+                width: 100%;
+                height: 1300px;
+                gap: 5px;
+                
+            }
+            .imagentercera{
+                width: 280px;
+                height: 550px;
+                
+              
+                
+            }
+            .divtercera{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                position: relative;
+                top: 0px;
+            }
+
+            .bitcoin{
+                font-size: 15px;
+                width: 100%;
+            }
+            .terceraseccioneth{
+                font-size: 15px;
+                width: 100%;
+            }
+            .terceraseccionusdt{
+                font-size: 15px;
+                width: 100%;
+            }
+            .footer{
+                display: flex;
+                flex-direction: column;
+                height: 100px;
+            }
+            .footerfoto{
+                width: 200px;
+                height: 50px;
+                
+            }
+            .fotofooter{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                width: 100%;
+                
+            }
+            .footerderechos{
+               
+                display: flex;
+               
+                justify-content: flex-start;
+                
+                width: 100%;
+    
+            }
+
+    
+            
+          
+        
+    }
+
+
+    @media screen and (max-width: 930px) {
+       
+        .imagenprincipal{
+            width: 190px;
+            height: 65px;
+            
+        }
+        .menu{
+            width: 100%;
+            display: none;
+
+        }
+        
+
+
+        .header{
+            display: flex;
+            
+            width: 100%;
+        
+            
+        }
+        
+        .fas{
+            display: flex;
+            font-size: 32px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .seccion1{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            
+            
+        }
+        .contenido1{
+            width: 100%;
+            display: flex;
+            font-size: 20px;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            
+        }
+        .bitcoin1{
+            width: 370px;
+            height: 460px;
+           align-items: center;
+           justify-content: center;
+           display: flex;
+           margin-top: 50px;
+        }
+        
+
+       
+        
+        .segundaseccion{
+            width: 100%;
+            background-size: 500px;
+            display: flex;
+            flex-direction: column;
+            height: 750px;
+        
+        }
+        .seccion2__titulo{
+            font-size: 25px;
+          
+        }
+        .seccion2__parrafo{
+            font-size: 20px;
+            
+        }
+
+        .divsegundo{
+            width: 100%;
+            margin-top: 250px;
+        }
+        
+        
+        
+        .terceraseccion{
+            width: 100%;
+            height: 1300px;
+            gap: 5px;
+            
+        }
+        .imagentercera{
+            width: 280px;
+            height: 550px;
+            position: relative;
+            left: 60px;
+            top: 2px;
+          
+            
+        }
+        .divtercera{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            position: relative;
+            
+        
+        
+
+        }
+
+        .bitcoin{
+            font-size: 15px;
+            width: 100%;
+        }
+        .terceraseccioneth{
+            font-size: 15px;
+            width: 100%;
+        }
+        .terceraseccionusdt{
+            font-size: 15px;
+            width: 100%;
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+        }
+        .footerfoto{
+            width: 220px;
+            height: 50px;
+            
+        }
+        .fotofooter{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            width: 100%;
+            
+        }
+        .footerderechos{
+           
+            display: flex;
+           
+            justify-content: flex-start;
+            
+            width: 100%;
+
+        }
+
+
+        
+      
+    
+}
+
+
+
+@media screen and (max-width: 750px) {
+       
+    .imagenprincipal{
+        width: 190px;
+        height: 65px;
+        
+    }
+    .menu{
+        width: 100%;
+        display: none;
+
+    }
+    
+
+
+    .header{
+        display: flex;
+        
+        width: 100%;
+    
+        
+    }
+    
+    .fas{
+        display: flex;
+        font-size: 32px;
+        color: rgb(255, 255, 255);
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .seccion1{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 725px;
+        
+        
+    }
+    .contenido1{
+        width: 100%;
+        display: flex;
+        font-size: 20px;
+        height: 100%;
+        margin-bottom: 350px;
+        
+        
+    }
+    .bitcoin1{
+        width: 320px;
+        height: 390px;
+         display: flex;
+         
+        
+    }
+    .imagenbitcoin{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        top: 200px;
+        
+        
+    }
+    
+
+   
+    
+    .segundaseccion{
+        width: 100%;
+        background-size: 500px;
+        display: flex;
+        flex-direction: column;
+        height: 750px;
+    
+    }
+    .seccion2__titulo{
+        font-size: 25px;
+      
+    }
+    .seccion2__parrafo{
+        font-size: 20px;
+        
+    }
+
+    .divsegundo{
+        width: 100%;
+        margin-top: 250px;
+    }
+    
+    
+    
+    .terceraseccion{
+        width: 100%;
+        height: 1300px;
+        gap: 5px;
+        
+    }
+    .imagentercera{
+        width: 230px;
+        height: 500px;
+        
+      
+        
+    }
+    .divtercera{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        
+    
+    
+    
+
+    }
+
+    .bitcoin{
+        font-size: 15px;
+        width: 100%;
+    }
+    .terceraseccioneth{
+        font-size: 15px;
+        width: 100%;
+    }
+    .terceraseccionusdt{
+        font-size: 15px;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+    .footerfoto{
+        width: 220px;
+        height: 50px;
+        
+    }
+    .fotofooter{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .footerderechos{
+       
+        display: flex;
+       
+        justify-content: flex-start;
+        
+        width: 100%;
+
+    }
+
+
+    
+  
+
+}
+
+  
+
+    @media screen and (max-width:493px) {
+
+        .imagenprincipal{
+            width: 150px;
+            height: 60px;
+            
+        }
+        .menu{
+            display: none;
+            
+        }
+        .header{
+            display: flex;
+            width: 100%;
+        
+            
+        }
+        .seccion1{
+            display: flex;
+            flex-direction: column-reverse;
+            width: 100%;
+        }
+        .contenido1{
+            width: 100%;
+            display: flex;
+            font-size: 17px;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 450px;
+            
+        }
+        .bitcoin1{
+            width: 250px;
+            height: 270px;
+           align-items: center;
+           justify-content: center;
+           display: flex;
+        }
+        .imagenbitcoin{
+            width: 100%;
+        }
+
+        .fas{
+            display: flex;
+            font-size: 32px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .segundaseccion{
+            width: 100%;
+            background-size: 500px;
+            display: flex;
+            flex-direction: column;
+            
+            
+        
+        }
+        .seccion2__titulo{
+            font-size: 25px;
+        }
+        .seccion2__parrafo{
+            font-size: 20px;
+        }
+        .moneda{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 100px;
+        top: 270px;
+        }
+        
+        
+        .terceraseccion{
+            width: 100%;
+            height: 1500px;
+            
+        }
+        .imagentercera{
+            width: 230px;
+            height: 500px ;
+            
+            
+        }
+        .bitcoin{
+            font-size: 15px;
+            width: 100%;
+        }
+        .terceraseccioneth{
+            font-size: 15px;
+            width: 100%;
+        }
+        .terceraseccionusdt{
+            font-size: 15px;
+            width: 100%;
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+            height: 170px;
+        }
+        .footerfoto{
+            width: 220px;
+            height: 50px;
+            
+        }
+        .fotofooter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            
+        }
+        .footerderechos{
+            position: relative;
+            display: flex;
+           
+            justify-content: center;
+            left: 50px;
+            width: 300px;
+
+        }
+
+        
+    }   
+
+    @media screen and (max-width:405px) {
+
+        .imagenprincipal{
+            width: 150px;
+            height: 60px;
+            
+        }
+        .menu{
+            display: none;
+            
+        }
+        .header{
+            display: flex;
+            width: 100%;
+        
+            
+        }
+        .seccion1{
+            display: flex;
+            flex-direction: column-reverse;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .contenido1{
+            width: 100%;
+            display: flex;
+            font-size: 17px;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 660px;
+            
+            
+        }
+        .bitcoin1{
+            width: 240px;
+            height: 250px;
+           align-items: center;
+           justify-content: center;
+           display: flex;
+        }
+        .imagenbitcoin{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+           
+
+        }
+
+        .fas{
+            display: flex;
+            font-size: 32px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+            padding: 20px;
+
+        }
+        
+        .segundaseccion{
+            width: 100%;
+            background-size: 300px;
+            display: flex;
+            flex-direction: column;
+            
+            
+        
+        }
+        .seccion2__titulo{
+            font-size: 25px;
+        }
+        .seccion2__parrafo{
+            font-size: 20px;
+        }
+        .moneda{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 100px;
+        top: 270px;
+        }
+        
+        
+        .terceraseccion{
+            width: 100%;
+            height: 1500px;
+            
+        }
+        .imagentercera{
+            width: 230px;
+            height: 500px ;
+            position: relative;
+            
+        }
+        .bitcoin{
+            font-size: 15px;
+            width: 100%;
+        }
+        .terceraseccioneth{
+            font-size: 15px;
+            width: 100%;
+        }
+        .terceraseccionusdt{
+            font-size: 15px;
+            width: 100%;
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+            height: 170px;
+        }
+        .footerfoto{
+            width: 220px;
+            height: 50px;
+            
+        }
+        .fotofooter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            
+        }
+        .footerderechos{
+            position: relative;
+            display: flex;
+           
+            justify-content: center;
+            left: 50px;
+            width: 300px;
+
+        }
+
+    }
+
+
+    @media screen and (max-width: 375px) {
+      
+
+        .imagenprincipal{
+            width: 150px;
+            height: 60px;
+            
+        }
+        .menu{
+            display: none;
+            
+        }
+        .header{
+            display: flex;
+            width: 100%;
+        
+            
+        }
+        .seccion1{
+            display: flex;
+            flex-direction: column-reverse;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        .contenido1{
+            width: 100%;
+            display: flex;
+            font-size: 15px;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .bitcoin1{
+            width: 235px;
+            height: 255px;
+            
+           
+           align-items: center;
+           justify-content: center;
+           display: flex;
+    
+        }
+        .imagenbitcoin{
+            width: 100%;
+        }
+
+        .fas{
+            display: flex;
+            font-size: 32px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+            padding: 20px;
+
+        }
+        
+        .segundaseccion{
+            width: 100%;
+            background-size: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+        .seccion2__titulo{
+            font-size: 22px;
+        }
+        .seccion2__parrafo{
+            font-size: 18px;
+        }
+        .moneda{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 100px;
+        top: 270px;
+        }
+        
+        
+        .terceraseccion{
+            width: 100%;
+            height: 1500px;
+            
+        }
+        .imagentercera{
+            width: 230px;
+            height: 500px ;
+            display: flex;
+            justify-content: center;
+        }
+        .bitcoin{
+            font-size: 15px;
+            width: 100%;
+        }
+        .terceraseccioneth{
+            font-size: 15px;
+            width: 100%;
+        }
+        .terceraseccionusdt{
+            font-size: 15px;
+            width: 100%;
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+            height: 170px;
+        }
+        .footerfoto{
+            width: 220px;
+            height: 50px;
+            
+        }
+        .fotofooter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            
+        }
+
+        .footerderechos{
+            display: flex;
+            justify-content: center;
+            width: 300px;
+
+
+        }
+        .footerderechos p{
+            margin-right: 30px;
+        }
+    }    
+
+    @media screen and (max-width: 357px) {
+      
+
+        .imagenprincipal{
+            width: 130px;
+            height: 60px;
+            
+        }
+        .menu{
+            display: none;
+            
+        }
+        .header{
+            display: flex;
+            width: 100%;
+        
+            
+        }
+        .seccion1{
+            display: flex;
+            flex-direction: column-reverse;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        .contenido1{
+            width: 100%;
+            display: flex;
+            font-size: 15px;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .bitcoin1{
+            width: 200px;
+            height: 230px;
+           align-items: center;
+           justify-content: center;
+           display: flex;
+    
+        }
+        .imagenbitcoin{
+            width: 100%;
+        }
+
+        .fas{
+            display: flex;
+            font-size: 32px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .segundaseccion{
+            width: 100%;
+            background-size: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+        .seccion2__titulo{
+            font-size: 22px;
+        }
+        .seccion2__parrafo{
+            font-size: 18px;
+        }
+        .moneda{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 100px;
+        top: 270px;
+        }
+        
+        
+        .terceraseccion{
+            width: 100%;
+            height: 1500px;
+            
+        }
+        .imagentercera{
+            width: 230px;
+            height: 500px ;
+            
+            
+        }
+        .bitcoin{
+            font-size: 13px;
+            width: 100%;
+        }
+        .terceraseccioneth{
+            font-size: 13px;
+            width: 100%;
+        }
+        .terceraseccionusdt{
+            font-size: 13px;
+            width: 100%;
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+            height: 170px;
+        }
+        .footerfoto{
+            width: 220px;
+            height: 50px;
+            
+        }
+        .fotofooter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            
+        }
+
+        .footerderechos{
+           display: flex;
+           justify-content: center;
+            width: 260px;
+            font-size: 15px;
+
+
+        }
+        .footerderechos p{
+            margin-right: 30px;
+            width: 100%;
+        }
+    }   
+
+
+    @media screen and (max-width: 320px) {
+      
+
+        .imagenprincipal{
+            width: 130px;
+            height: 60px;
+            
+        }
+        .menu{
+            display: none;
+            
+        }
+        .header{
+            display: flex;
+            width: 100%;
+        
+            
+        }
+        .seccion1{
+            display: flex;
+            flex-direction: column-reverse;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        .contenido1{
+            width: 100%;
+            display: flex;
+            font-size: 15px;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .bitcoin1{
+            width: 200px;
+            height: 230px;
+            align-items: center;
+           justify-content: center;
+           display: flex;
+    
+        }
+        .imagenbitcoin{
+            width: 100%;
+        }
+
+        .fas{
+            display: flex;
+            font-size: 32px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+
+        }
+        
+        .segundaseccion{
+            width: 100%;
+            background-size: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+        .seccion2__titulo{
+            font-size: 22px;
+        }
+        .seccion2__parrafo{
+            font-size: 18px;
+        }
+        .moneda{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 100px;
+        top: 270px;
+        }
+        
+        
+        .terceraseccion{
+            width: 100%;
+            height: 1500px;
+            
+        }
+        .imagentercera{
+            width: 230px;
+            height: 500px ;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .bitcoin{
+            font-size: 12px;
+            width: 100%;
+        }
+        .terceraseccioneth{
+            font-size: 12px;
+            width: 100%;
+        }
+        .terceraseccionusdt{
+            font-size: 12px;
+            width: 100%;
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+            height: 170px;
+        }
+        .footerfoto{
+            width: 220px;
+            height: 50px;
+            
+        }
+        .fotofooter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            
+        }
+
+        .footerderechos{
+           display: flex;
+           justify-content: center;
+            width: 250px;
+            font-size: 14px;
+
+
+        }
+        .footerderechos p{
+            margin-right: 30px;
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width:930px) {
+        .fas{
+            display: flex;
+            font-size: 32px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+        }
+
+
+    }
+
+    @media screen and (max-width:768px) {
+        .menu{
+            display: none;
+            
+        }
+        .header{
+            display: flex;
+            width: 100%;
+        }
+      
+        .fas{
+            display: flex;
+            font-size: 32px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+        }
+     
+        .botones{
+            width: 100%;
+        }
+        
+       
+    }
+
+    @media screen and (max-width:500px) {
+        .fas{
+            display: flex;
+            font-size: 32px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+            padding: 20px;
+        }
+        
+       
+    }
+
+    @media screen and (max-width:380px) {
+        .fas{
+            display: flex;
+            font-size: 32px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+            padding: 20px;
+        }
+        
+       .divbotones{
+           width: 100%;
+
+       }
+       .botonuno{
+           width: 98px;
+
+       }
+       .botondos{
+           width: 98px;
+       }
+       
+       
+    }
+    
+
+
+
+    
