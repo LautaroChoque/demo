@@ -118,9 +118,8 @@ position: relative;
      background-image: url(../img/eth.png);
      background-size: 620px;
      background-repeat: no-repeat;
-     
-    
- }
+}
+
 
    
 .moneda{
@@ -198,7 +197,10 @@ width: 1000px;
 height: 150px;
 flex-direction: row;
 padding: 20px;
+
 }
+
+
 .terceraseccionparraf{ 
     padding-left: 130px;
 }
@@ -206,6 +208,8 @@ padding: 20px;
     float: left;
 
 }
+
+
 .terceraseccion h2 {
     padding-left: 130px;
 }
@@ -512,7 +516,13 @@ width: 70px;
     gap: 20px;
     border-radius: 40px;
     box-shadow: 7px 13px 37px #000;
+    transition: all 0.3s;
 }
+
+.cajaseguridad:hover{
+    transform: translateY(-10px);
+}
+
 .cajaseguridad p{
     color: black;
 }
@@ -529,6 +539,11 @@ width: 70px;
     border-radius: 40px;
     padding: 30px;
     box-shadow: 7px 13px 37px #000;
+    transition: all 0.3s;
+}
+
+.cajainnovacion:hover{
+    transform: translateY(-10px);
 }
 .cajainnovacion p{
     color: black;
@@ -546,7 +561,13 @@ width: 70px;
     border-radius: 40px;
     padding: 20px;
     box-shadow: 7px 13px 37px #000;
+    transition: all 0.3s;
 }
+
+.cajaconfianza:hover{
+    transform: translateY(-10px);
+}
+
 .cajaconfianza p{
     color: black;
 }
