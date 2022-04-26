@@ -55,6 +55,9 @@ nav ul li a {
     
     
 }
+
+
+
 .imagenbitcoin{
     grid-area: 1fr / 1fr / 2fr / 2fr;
     width: 500px;
@@ -74,9 +77,8 @@ nav ul li a {
     text-align: center;
     display: flex;
     flex-direction: column;
-
+   
 }
-
 
  .bitcoin1 {
     width: 100%;
@@ -150,7 +152,8 @@ position: relative;
     height: 150px;
     margin-top: 170px;
 }
- 
+
+
 .divsegundo{
     font-family: 'Heebo', sans-serif;
     font-size: 23px;
@@ -163,6 +166,10 @@ position: relative;
    justify-content: flex-end;
    
 } 
+
+
+ 
+  
    
 
 .botonsegunda{
