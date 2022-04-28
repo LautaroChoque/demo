@@ -486,7 +486,7 @@ width: 70px;
 .segundomaininfo{
     color: white;
     height: 600px;
-    
+    background-color:  rgb(2,0,65);
 }
 .segundomaininfo h2{
     font-size: 30px;
