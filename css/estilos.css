@@ -8,6 +8,9 @@ body {
     font-family: 'Heebo', sans-serif;
     background-color: rgb(2,0,65);
 }
+
+
+
  nav {
      width: 100%;
      height: 80px;
@@ -15,7 +18,7 @@ body {
      justify-content: space-between;
      background-color: rgb(2, 1, 46);
      box-shadow: 0 0 5px;
-   
+     font-family: 'Heebo', sans-serif;
 
 }
 nav .imagenprincipal {
@@ -91,7 +94,9 @@ nav ul li a {
     transform: translateY(-10px);
 }
 
-
+.seccion1__titulo{
+    font-weight: 600;
+}
     
 .contenido1 p {
 position: relative;
@@ -167,7 +172,9 @@ position: relative;
    
 } 
 
-
+.seccion2__titulo{
+    font-weight: 600;
+}
  
   
    
@@ -272,6 +279,7 @@ padding: 20px;
     height: 100px;
     box-shadow: 0px 0px 0px 2px rgb(255, 255, 255);
     background-color: rgb(2, 1, 46);
+    font-family: 'Heebo', sans-serif;
 }
 
 
@@ -319,11 +327,14 @@ width: 100%;
     display: flex;
     justify-content: center;
     padding: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
 } 
 .parrafocomprar{
     display: flex;
     justify-content: center;
     padding: 15px;
+    font-family: 'Heebo', sans-serif;
 }
 .botones{
     justify-items: center;
@@ -383,6 +394,7 @@ height: 350px;
     justify-content: center;
     color: rgb(7, 7, 7);
     padding-bottom: 50px;
+    font-weight: 500;
 }
 .botonpago{
     position: relative;
@@ -492,7 +504,12 @@ width: 70px;
 .segundomaininfo h2{
     font-size: 30px;
     display: flex;
+    font-weight: 600;
    
+}
+
+.segundomaininfo h3{
+    font-weight: 600;
 }
 .segundodivmain p{
    display: flex;
@@ -509,13 +526,11 @@ width: 70px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
-    
 
 }
 .cajaseguridad{
     background-color: rgb(255, 255, 255);
-    color:  rgb(235, 182, 8);
+    color:  rgb(0, 0, 0);
     height: 250px;
     width: 300px;
     display: flex;
@@ -537,7 +552,7 @@ width: 70px;
 
 .cajainnovacion{
     background-color: rgb(255, 255, 255);
-    color:  rgb(235, 182, 8);
+    color:  rgb(0, 0, 0);
     height: 250px;
     width: 300px;
     display: flex;
@@ -559,7 +574,7 @@ width: 70px;
 
 .cajaconfianza{
     background-color: rgb(255, 253, 253);
-    color:  rgb(235, 182, 8);
+    color:  rgb(7, 5, 0);
     height: 250px;
     width: 300px;
     display: flex;
@@ -702,7 +717,7 @@ background-color: rgb(2,0,65);
     display: flex;
     justify-content: center;
     color: white;
-    
+    font-weight: 600;
 }
 
 
@@ -846,7 +861,7 @@ width: 100%;
     
 
 
-.seccionreplica{
+/* .seccionreplica{
     width: 1200px;
     height: 1000px;
     display: flex;
@@ -968,16 +983,14 @@ width: 100%;
         grid-area: 1 / 2 / 4 / 3; 
         position: relative;
         bottom: 500px;
-    }
+    } */
 
     .fas{
         display: none;
+        color: #000;
     }
-
-
    
 
-        
 @media screen and (max-width: 1115px) {
        
             .imagenprincipal{
