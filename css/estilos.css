@@ -986,7 +986,7 @@ width: 100%;
     } */
 
     .fas{
-        display: none;
+        display:none;
         color: #000;
     }
    
@@ -2181,3 +2181,378 @@ width: 100%;
        
        
     }
+
+
+    @media screen and (max-width: 815px) {
+
+        .fas{
+            display: flex;
+            font-size: 32px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+            padding: 20px;
+        }
+
+        .segundomaininfo{
+            height: 1200px;
+           
+        }
+
+        .segundomaininfo h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+       .segundodivmain{
+           width: 100%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           position: relative;
+           right: 100px;
+       }
+
+       .maincomprar{
+           width: 100%;
+       }
+
+       .segundomaininfo h2 p{
+        width: 100%;
+        
+    }
+
+    .segundodivmain {
+        width: 100%;
+        
+
+    }
+
+    .maincomprar{
+        width: 100%;
+    }
+
+
+  .divcomprar{
+      width: 100%;
+  }
+  
+    .divcomprar h1{
+       font-size: 25px;
+   }
+    
+    .pagouno{
+        width: 100%;
+    }   
+
+    .pagotres{
+        width: 100%;
+    }
+   
+    .cajas{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+    }
+   
+    @media screen and (max-width: 500px) {
+
+        .fas{
+            display: flex;
+            font-size: 32px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .maincomprar .titulocompraruno {
+            font-size: 20px;
+        }
+
+        .pagouno .botonpago {
+            
+            width: 100%;
+            font-size: 15px;
+            
+        }
+        .pagodos .botonpagodos {
+            
+            width: 100%;
+            font-size: 15px;
+            
+        }
+
+        .pagotres .botonpagotres {
+            
+            width: 100%;
+            font-size: 15px;
+            
+        }
+
+        
+
+        .segundomaininfo{
+            height: 1200px;
+           
+        }
+
+        .segundomaininfo h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 22px;
+        }
+
+        .segundomaininfo p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+        }
+
+
+       .segundodivmain{
+           width: 100%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           position: relative;
+           right: 100px;
+       }
+
+       .maincomprar{
+           width: 100%;
+       }
+
+       .segundomaininfo h2 p{
+        width: 100%;
+        
+    }
+
+    .segundodivmain {
+        width: 100%;
+        
+
+    }
+
+    .maincomprar{
+        width: 100%;
+    }
+
+
+  .divcomprar{
+      width: 100%;
+  }
+  
+    .divcomprar h1{
+       font-size: 25px;
+   }
+    
+    .pagouno{
+        width: 100%;
+    }   
+
+    .pagotres{
+        width: 100%;
+    }
+   
+    .cajas{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+    }
+   
+
+    @media screen and (max-width: 376px) {
+        .fas{
+            display: flex;
+            font-size: 32px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .maincomprar .titulocompraruno {
+            font-size: 20px;
+        }
+
+        .pagouno .botonpago {
+            
+            width: 100%;
+            font-size: 15px;
+            
+        }
+        .pagodos .botonpagodos {
+            
+            width: 100%;
+            font-size: 15px;
+            
+        }
+
+        .pagotres .botonpagotres {
+            
+            width: 100%;
+            font-size: 15px;
+            
+        }
+
+        
+
+        .segundomaininfo{
+            height: 1200px;
+           
+        }
+
+        .segundomaininfo h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            width: 100%;
+        }
+
+        .segundomaininfo p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+        }
+
+
+       .segundodivmain{
+           width: 100%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           position: relative;
+           right: 100px;
+       }
+
+       .maincomprar{
+           width: 100%;
+       }
+
+       .segundomaininfo h2 p{
+        width: 100%;
+        
+    }
+
+    .segundodivmain {
+        width: 100%;
+        
+
+    }
+
+    .maincomprar{
+        width: 100%;
+    }
+
+
+  .divcomprar{
+      width: 100%;
+  }
+  
+    .divcomprar h1{
+       font-size: 25px;
+   }
+    
+    .pagouno{
+        width: 100%;
+    }   
+
+    .pagotres{
+        width: 100%;
+    }
+   
+    .cajas{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+    }
+   
+
+    @media screen and (max-width: 960px) {
+
+        .fas{
+            display: flex;
+            font-size: 32px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+            padding: 20px;
+        }
+    
+    .seccioncotizacion{
+        width: 100%;
+    }
+    .filabtc{
+        width: 800px
+    }
+
+
+    }
+    @media screen and (max-width: 820px) {
+
+        .fas{
+            display: flex;
+            font-size: 32px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+            padding: 20px;
+        }
+    
+        .seccioncotizacion{
+            width: 100%;
+        }
+        .filabtc{
+            width: 600px
+        }
+    
+        .columna{
+            width: 100%;
+        }
+
+        body {
+            font-size: 13px;
+        }
+        }
+
+
+        @media screen and (max-width: 615px) {
+    
+            .fas{
+                display: flex;
+                font-size: 32px;
+                color: rgb(255, 255, 255);
+                align-items: center;
+                padding: 20px;
+            }
+            .seccioncotizacion h1{
+                font-size: 20px;
+            }
+
+            .seccioncotizacion p{
+                font-size: 15px;
+            }
+
+
+            .seccioncotizacion{
+                width: 100%;
+            }
+            .filabtc{
+                width: 400px
+            }
+        
+            .columna{
+                width: 100%;
+            }
+    
+            body {
+                font-size: 13px;
+            }
+            }
