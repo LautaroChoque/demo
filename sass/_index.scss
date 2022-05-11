@@ -56,6 +56,168 @@
     }
 }
 
+.segundaseccion {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+     height: 700px;
+     width: 100%;
+     background-image: url(../img/eth.png);
+     background-size: 620px;
+     background-repeat: no-repeat;
+     .moneda{
+        display: flex;
+        justify-content: flex-end;
+       width: 100%;
+        height: 100px;
+        .imgmoneda{
+            width: 100px;
+            height: 100px;
+            margin-right: 80px;
+            margin-top: 20px;
+            transition: all 1s;
+        .imgmoneda:hover{
+            transform: translateY(50px) rotate(360deg);
+                
+            }
+        }
+}
+    .contenedordivseg{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: 150px;
+        margin-top: 170px;
+        .divsegundo{
+            font-family: 'Heebo', sans-serif;
+            font-size: 23px;
+            color:  rgb(2, 1, 46);
+            text-align: center;
+            height: 150px;
+            width: 700px;
+           display: flex;
+           flex-direction: column;
+           justify-content: flex-end;
+           .seccion2__titulo{
+            font-weight: 600;
+        }
+            .botonsegunda{
+            color: white;
+            position: relative;
+            width: 130px;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            justify-content: center;
+            background-color: rgb(2, 1, 46);
+            font-family: 'Heebo', sans-serif;
+            font-size: 17px;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 18px;
+        }
+           
+        } 
+}
+}
+
+
+.terceraseccion{
+    display: flex;
+    flex-wrap: wrap ;
+    flex-direction: row;
+    color: white;
+    gap: 80px;
+    padding-top: 150px;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(2,0,65);
+    .bitcoin{
+
+        width: 1000px;
+        height: 150px;
+        flex-direction: row;
+        padding: 20px;
+        .btcimg{
+            float: left;
+        
+        }
+        .terceraseccion h2 {
+            padding-left: 130px;
+        }
+        .terceraseccionparraf{ 
+            padding-left: 130px;
+            .masinfo{
+                color: rgb(235, 182, 8);
+                
+            }
+        }
+        
+        }
+
+        .terceraseccioneth{
+            width: 1000px;
+            height: 150px;
+            padding: 20px;
+
+            .terceraseccioneth img{
+                float: left;
+                
+            }
+            .terceraseccion h2 {
+                padding-left: 130px;
+            }
+            .terceraseccionparraf{ 
+                padding-left: 130px;
+                .masinfo{
+                    color: rgb(235, 182, 8);
+                    
+                }
+            }
+        }
+
+        .terceraseccionusdt{
+            width: 1000px;
+            height: 150px;
+            padding: 20px;
+            .terceraseccionusdt img{
+                float: left;
+            
+            }
+            .terceraseccion h2 {
+                padding-left: 130px;
+            }
+            .terceraseccionparraf{ 
+                padding-left: 130px;
+                .masinfo{
+                    color: rgb(235, 182, 8);
+                    
+                }
+            }
+
+        }
+
+        .divtercera{
+            position: relative;
+            bottom: 450px;
+            right: 50px;
+            .imagentercera{
+                display: flex;
+                position: relative;
+                width: 269px;
+                height: 550;
+                transition: all 0.5s;
+                .imagentercera:hover{
+    
+                    transform: translatey(-20px);
+                }
+            }
+        
+        }
+
+}
+
+
 
 
 
