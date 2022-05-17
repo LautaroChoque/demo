@@ -19,7 +19,7 @@
         text-align: center;
         display: flex;
         flex-direction: column;
-        .seccion1__titulo{
+        &__titulo {
             font-weight: 600;
         }
         .contenido1 p {
